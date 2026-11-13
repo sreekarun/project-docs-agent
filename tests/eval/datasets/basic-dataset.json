@@ -1,0 +1,24 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "agent_identity_switch",
+      "prompt": {"role": "user", "parts": [{"text": "How do I switch a runtime to Agent Identity?"}]}
+    },
+    {
+      "eval_case_id": "staging_deploy_trigger",
+      "prompt": {"role": "user", "parts": [{"text": "Why didn't my workflow-only change deploy to staging?"}]}
+    },
+    {
+      "eval_case_id": "gcsfs_401",
+      "prompt": {"role": "user", "parts": [{"text": "What causes the 'Could not determine bucket type ... 401' log line and how was it fixed?"}]}
+    },
+    {
+      "eval_case_id": "list_docs",
+      "prompt": {"role": "user", "parts": [{"text": "What documentation does this project have?"}]}
+    },
+    {
+      "eval_case_id": "not_in_docs",
+      "prompt": {"role": "user", "parts": [{"text": "How do I configure Kubernetes autoscaling for this project?"}]}
+    }
+  ]
+}
